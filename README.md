@@ -37,3 +37,11 @@
 - deletePosts.py : Line 64에 의해, 추천이 10 미만인 글만 삭제합니다.
 
 - deleteComments.py : Line 63에 의해, 특정 키워드가 들어간 댓글만 삭제합니다. 그런데 이게 잘 작동하지 않는 것 같으니 요리조리 수정하시길 바랍니다.
+
+- 가상환경 세팅
+
+```bash
+python3 -m venv .venv &&\
+. ./.venv/bin/activate &&\
+pip3 install -r requirements.txt
+```
